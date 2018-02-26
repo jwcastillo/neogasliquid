@@ -61,3 +61,8 @@ Here you can try some example calculations:  https://neodepot.org/
 
 # Future Work
 
+Finish MVP
+Enable Cancle Demand and Offer
+Provide a GAS NEO Ratio, so that Loans can be paid back with Pledged NEO to
+
+
