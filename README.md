@@ -45,9 +45,9 @@ There are limitless scenarios in which an easy way to borrow GAS is useful. For 
 
 
 # Example Calculation
-Here you can try some example calculations:  https://neodepot.org/
 
-In this example the borrower pledges 200 NEO. His loan demand parameters could look like:
+The borrower pledges 200 NEO. 
+His loan demand parameters could look like:
 
 Pledge NEO amount: 200
 
@@ -55,8 +55,9 @@ Demand GAS amount: 15 GAS
 
 Interest: 2.2 GAS == 14,6 %
 
-Maximal duration: approx. 1 year (the exact Block height has to be calculated)
+Maximal duration: approx. 1 year (for now the exact Block height has to be calculated)
 
+Here you can try some example calculations:  https://neodepot.org/
 
 # Future Work
 
