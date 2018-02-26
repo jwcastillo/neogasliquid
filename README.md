@@ -12,23 +12,28 @@ This Smart Contract supports the desire of NEO supporters and investors who want
  
 The following Operations are implemented in this dApp:
 
+
 createLoanOffer(address of offered GAS, amout of offered GAS, interest, duration as block height)
 
 This allows users who want to lend GAS to declare an offer for a GAS Loan on the NGL smart contract.
 For instance, createLoanOffer(addressHash, 8, 10, 3963966) would offer to loan 8 GAS, with an interest of 10% until block height3963966 is reached, resulting in a claimable reward of 8 x 0.10 = 8.8 GAS and thus a profit of 0.8 GAS for the creditor.
+
 
 createLoanDemand(address of offered NEO, neoToPledge, interest, duration as block height)
 
 This allows users to declare a demand for a GAS Loan on the NGL smart contract.
 For instance, createLoanDemand(addressHash, 200, 15, 15, 20691196) would offer to borrow 8 GAS, with a pledge of 4 NEO and interest of 0.15, resulting in a claimable reward of 8 x 1.15 = 9.2 GAS and thus a profit of 1.2 GAS for the creditor.
 
+
 fillOfferLoan (demandAddress, loanOffer)
 
 This allows the users to accept a loan offer that is listed on the smart contract. The user has to send in enough NEO to succeed with this call. 
 
+
 fillDemandLoan(offerAddress, loanDamand)
 
 This allows the users to accept a loan demand. The user has to send in the demanded amount of GAS to. 
+
 
 claimClosingLoan(loan)
 
