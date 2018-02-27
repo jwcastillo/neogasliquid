@@ -65,6 +65,8 @@ Finish MVP
 
 Enable Cancle Demand and Offer
 
-Provide a GAS NEO Ratio, so that Loans can be paid back with Pledged NEO to
+Provide the possibility to pay back GAS sooner
+
+Provide a GAS NEO Ratio, so that Loans can be paid back with Pledged NEO too
 
 
